@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <script src="js/jquery.js"></script>
+    <script src="js/tabs.js"></script>
+</head>
+<body>
+    <!--background-->
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="content">
+        <!--
+            Navigation Bar
+        -->
+        <div class="nav">
+            <!--logo-->
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <!--navbars-->
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Our Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <!--clear-->
+            <div class="clear"></div>
+        </div>
+
+        <!--
+            Slideshow
+        -->
+        <!--slider start-->
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <!--slides-->
+                <div class="slide first">
+                    <img src="images/slideshow/talosig.png" alt="Slideshow first slide">
+                </div>
+                <div class="slide">
+                    <img src="images/slideshow/verang.png" alt="Slideshow second slide">
+                </div>
+                <div class="slide">
+                    <img src="images/slideshow/talosig-verang.png" alt="Slideshow third slide">
+                </div>
+                <!--buttons-->
+                <div class="nav-buttons">
+                    <label for="radio1" class="circle-btn"></label>
+                    <label for="radio2" class="circle-btn"></label>
+                    <label for="radio3" class="circle-btn"></label>
+                </div>
+            </div>
+        </div>
+
+        <!--homepage infos-->
+        <div id="tabs">
+            <ul>
+                <li><a href="#" name="tab1">Geneva Talosig</a></li>
+                <li><a href="#" name="tab2">Akisha Verang</a></li>
+            </ul>
+        </div>
+        <div id="tab-content">
+            <div id="tab1">
+                <img src="images/profiles/talosig-pfp.png" width="18%" alt="Talosig Profile">
+                <br>
+                <p>I am a dynamic and innovative professional with over 7 years of hands-on experience managing multiple concurrent creative design projects and a solid foundation for my work. As an Architect, I am also trustworthy and dependable.</p>
+                <br>
+                <p>Currently a Project Manager at ZJT Engineering and  Architectural Services.</p>
+                <br>
+                <p>(+63) 966 740 9586</p>
+                <p>talosigmageneva@gmail.com</p>
+                <div class="clear"></div>
+                <div class="tab-button">
+                    <a href="about.html">Read More</a>
+                </div>
+            </div>
+            
+            <div id="tab2">
+                <img src="images/profiles/verang-pfp.png" width="18%" alt="Verang Profile">
+                <br>
+                <p>Hi! I am Akisha Verang I am  Professional Web Developer from the Philippines with skills in web developement and software developement. Experienced in using HTML, CSS, and JavaScript coding languages. Open to new experiences. 
+                </p>
+                <br>
+                <p>Currently a Full-Stack Developer at ISBX Philippines, Inc.</p>
+                <br>
+                <p>(+63) 967 284 0633</p>
+                <p>verangakisha@gmail.com</p>
+                <div class="clear"></div>
+                <div class="tab-button">
+                    <a href="about.html">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer-container">
+            <footer>
+                <a href="sources.html" target="_blank"><p>Sources</p></a>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>

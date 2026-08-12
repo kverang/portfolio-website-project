@@ -1,0 +1,167 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #544a7d;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    width:75%;
+    background-color: #fff;
+}
+
+.image{
+    width:25%;
+    overflow: hidden;
+    border: 5px solid #000;
+    outline: 10px solid #000;
+    outline-offset: -10px;
+}
+
+.fleft{
+    float:left;
+}
+
+.fright{
+    float:right;
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+.headline{
+    position:relative;
+    left:2em;
+}
+
+.objective{
+    margin:0;
+    padding:0;
+    width:100%;
+    text-align: center;
+}
+.objective-head{
+    text-align: center;
+    width:100%;
+    background-color: #000;
+    color:#fff;
+}
+
+.work-exp{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+.work-exp-head{
+    text-align:center;
+    width:100%;
+    background-color: #000;
+    color:#fff;
+}
+
+.work-exp-text{
+    line-height:80%;
+    text-align:center;
+}
+
+.work-exp-text ul{
+    list-style-type:none;
+}
+
+.work-exp-text i{
+    color:rgb(122, 122, 122);
+}
+
+.education{
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+.education-head{
+    text-align:center;
+    width:100%;
+    background-color: #000;
+    color:#fff;
+}
+
+.education-year ul{
+    text-align: center  ;
+    list-style-type: none;
+}
+
+
+
+.awards{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    text-align: center;
+}
+
+.award-head{
+    text-align:center;
+    width:100%;
+    background-color: #000;
+    color:#fff;
+}
+
+.seminars{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    text-align: center  ;
+}
+
+.seminars-head{
+    text-align:center;
+    width:100%;
+    background-color: #000;
+    color:#fff;
+}
+
+.seminars-head i{
+    color:rgb(122, 122, 122);
+}
+
+.personal-data{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    text-align: center;
+}
+
+.personal-data-head{
+    text-align:center;
+    width:100%;
+    background-color: #000;
+    color:#fff;
+}
+
+.references{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    text-align: center;
+}
+
+.references-head{
+    text-align:center;
+    width:100%;
+    background-color: #000;
+    color:#fff;
+}
+
